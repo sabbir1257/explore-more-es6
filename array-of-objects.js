@@ -14,8 +14,16 @@ const prices = products.map(p => p.price);
 
 
 // forEach 
-products.forEach(p=> console.log(p.id))
+// products.forEach(p=> console.log(p.id))
 
 // filter
-const expensive = products.filter(p=> p.price > 50000);
-console.log(expensive);
+const expensive = products.filter(p => p.price > 50000);
+// console.log(expensive);
+
+// find
+const affordable = products.find(p => p.price < 50000);
+// console.log(affordable);
+
+// reduce
+const total = products.reduce((a, c) => a + c.price, 0);
+console.log(total);
