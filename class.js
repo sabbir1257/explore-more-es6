@@ -19,5 +19,5 @@ class Product {
 }
 
 const lenovo = new Product('Le le lenovo');
-console.log(lenovo);
-lenovo.speak('oba  kita kau');
+// console.log(lenovo);
+// lenovo.speak('oba  kita kau');
